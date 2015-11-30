@@ -47,127 +47,44 @@ function runit {
 # runit 0.0006 1 0.1 2
 # runit 0.0006 1 0.01 2
 
+runit 2.0 1 0.001 1
+runit 2.1 1 0.001 1
+runit 2.2 1 0.001 1
+runit 2.3 1 0.001 1
+runit 2.4 1 0.001 1
+runit 2.5 1 0.001 1
+runit 2.6 1 0.001 1
+runit 2.7 1 0.001 1
+runit 2.8 1 0.001 1
+runit 2.9 1 0.001 1
 runit 3.0 1 0.001 1
-runit 3.0 1 0.01 1
-runit 3.0 1 0.1 1
-
 runit 3.1 1 0.001 1
-runit 3.1 1 0.01 1
-runit 3.1 1 0.1 1
-
 runit 3.2 1 0.001 1
-runit 3.2 1 0.01 1
-runit 3.2 1 0.1 1
-
 runit 3.3 1 0.001 1
-runit 3.3 1 0.01 1
-runit 3.3 1 0.1 1
-
 runit 3.4 1 0.001 1
-runit 3.4 1 0.01 1
-runit 3.4 1 0.1 1
-
 runit 3.5 1 0.001 1
-runit 3.5 1 0.01 1
-runit 3.5 1 0.1 1
-
 runit 3.6 1 0.001 1
-runit 3.6 1 0.01 1
-runit 3.6 1 0.1 1
-
 runit 3.7 1 0.001 1
-runit 3.7 1 0.01 1
-runit 3.7 1 0.1 1
-
 runit 3.8 1 0.001 1
-runit 3.8 1 0.01 1
-runit 3.8 1 0.1 1
-
 runit 3.9 1 0.001 1
-runit 3.9 1 0.01 1
-runit 3.9 1 0.1 1
-
 runit 4.0 1 0.001 1
-runit 4.0 1 0.01 1
-runit 4.0 1 0.1 1
-
 runit 4.1 1 0.001 1
-runit 4.1 1 0.01 1
-runit 4.1 1 0.1 1
-
 runit 4.2 1 0.001 1
-runit 4.2 1 0.01 1
-runit 4.2 1 0.1 1
-
 runit 4.3 1 0.001 1
-runit 4.3 1 0.01 1
-runit 4.3 1 0.1 1
-
 runit 4.4 1 0.001 1
-runit 4.4 1 0.01 1
-runit 4.4 1 0.1 1
-
 runit 4.5 1 0.001 1
-runit 4.5 1 0.01 1
-runit 4.5 1 0.1 1
-
 runit 4.6 1 0.001 1
-runit 4.6 1 0.01 1
-runit 4.6 1 0.1 1
-
 runit 4.7 1 0.001 1
-runit 4.7 1 0.01 1
-runit 4.7 1 0.1 1
-
 runit 4.8 1 0.001 1
-runit 4.8 1 0.01 1
-runit 4.8 1 0.1 1
-
 runit 4.9 1 0.001 1
-runit 4.9 1 0.01 1
-runit 4.9 1 0.1 1
-
 runit 5.0 1 0.001 1
-runit 5.0 1 0.01 1
-runit 5.0 1 0.1 1
-
 runit 5.1 1 0.001 1
-runit 5.1 1 0.01 1
-runit 5.1 1 0.1 1
-
 runit 5.2 1 0.001 1
-runit 5.2 1 0.01 1
-runit 5.2 1 0.1 1
-
 runit 5.3 1 0.001 1
-runit 5.3 1 0.01 1
-runit 5.3 1 0.1 1
-
 runit 5.4 1 0.001 1
-runit 5.4 1 0.01 1
-runit 5.4 1 0.1 1
-
 runit 5.5 1 0.001 1
-runit 5.5 1 0.01 1
-runit 5.5 1 0.1 1
-
 runit 5.6 1 0.001 1
-runit 5.6 1 0.01 1
-runit 5.6 1 0.1 1
-
 runit 5.7 1 0.001 1
-runit 5.7 1 0.01 1
-runit 5.7 1 0.1 1
-
 runit 5.8 1 0.001 1
-runit 5.8 1 0.01 1
-runit 5.8 1 0.1 1
-
 runit 5.9 1 0.001 1
-runit 5.9 1 0.01 1
-runit 5.9 1 0.1 1
-
-
-
-
 
