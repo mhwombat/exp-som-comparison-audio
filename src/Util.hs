@@ -44,14 +44,14 @@ readDirAndShuffle d = do
   files <- map (d ++) . drop 2 <$> getDirectoryContents d
   return $ evalRand (shuffle files) g
 
-readSamples :: FilePath -> IO [(FilePath, Audio)]
-readSamples dir = do
+readSamples :: Int -> FilePath -> IO [(FilePath, Audio)]
+readSamples nvec dir = do
   files <- readDirAndShuffle dir
-  mapM readOneSample files
+  mapM (readOneSample nvec) files
 
-readOneSample :: FilePath -> IO (FilePath, Audio)
-readOneSample f = do
-  img <- readAudio f 60
+readOneSample :: Int -> FilePath -> IO (FilePath, Audio)
+readOneSample nvec f = do
+  img <- readAudio f nvec
   return (takeFileName f, img)
 
 putHtml :: String -> IO ()

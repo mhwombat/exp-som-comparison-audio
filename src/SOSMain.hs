@@ -52,10 +52,11 @@ main = do
   let r0  = read $ args !! 1
   let rf  = read $ args !! 2
   let passes  = read $ args !! 3
+  let nvec  = read $ args !! 4
   putStrLn "====="
   putStrLn "Training"
   putStrLn "====="
-  trainingSamples <- concat . replicate passes <$> readSamples trainingDir
+  trainingSamples <- concat . replicate passes <$> readSamples nvec trainingDir
   putStrLn "filename,numeral,label"
   let tf = fromIntegral (1594 * passes)
   (trainedClassifier, modelCreationData, stats) <- foldM trainOne (testClassifier threshold r0 rf tf, [], []) trainingSamples
@@ -65,7 +66,7 @@ main = do
   putStrLn "Answer Key"
   putStrLn "====="
   mapM_ (putStrLn . show) answers
-  testSamples <- readSamples testDir
+  testSamples <- readSamples nvec testDir
   putStrLn ""
   putStrLn "====="
   putStrLn "Testing"
@@ -76,6 +77,8 @@ main = do
   putStrLn "====="
   putStrLn "Summary"
   putStrLn "====="
+  putStrLn $ "passes=" ++ show passes
+  putStrLn $ "nvec=" ++ show nvec
   putStrLn $ "threshold=" ++ show threshold
   putStrLn $ "r0=" ++ show r0
   putStrLn $ "rf=" ++ show rf
