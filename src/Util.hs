@@ -51,7 +51,7 @@ readSamples dir = do
 
 readOneSample :: FilePath -> IO (FilePath, Audio)
 readOneSample f = do
-  img <- readAudio f 164
+  img <- readAudio f 60
   return (takeFileName f, img)
 
 putHtml :: String -> IO ()
