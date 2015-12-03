@@ -71,8 +71,9 @@ main = do
   putStrLn "====="
   putStrLn "Testing"
   putStrLn "====="
+  let trainedClassifier' = trainedClassifier { maxSize = numModels trainedClassifier }
   putStrLn "filename,numeral,label,answer,correct"
-  stats2 <- foldM (testOne answers trainedClassifier) [] testSamples
+  stats2 <- foldM (testOne answers trainedClassifier') [] testSamples
   putStrLn ""
   putStrLn "====="
   putStrLn "Summary"
