@@ -1,7 +1,7 @@
 ------------------------------------------------------------------------
 -- |
 -- Module      :  SOSMain
--- Copyright   :  (c) Amy de Buitléir 2015
+-- Copyright   :  (c) Amy de Buitléir 2015-2016
 -- License     :  BSD-style
 -- Maintainer  :  amy@nualeargais.ie
 -- Stability   :  experimental
@@ -53,6 +53,8 @@ main = do
   let rf  = read $ args !! 2
   let passes  = read $ args !! 3
   let nvec  = read $ args !! 4
+  let trainingDir = args !! 5
+  let testDir = args !! 6
   putStrLn "====="
   putStrLn "Training"
   putStrLn "====="
@@ -78,6 +80,8 @@ main = do
   putStrLn "====="
   putStrLn "Summary"
   putStrLn "====="
+  putStrLn $ "trainingDir=" ++ trainingDir
+  putStrLn $ "testDir=" ++ testDir
   putStrLn $ "passes=" ++ show passes
   putStrLn $ "nvec=" ++ show nvec
   putStrLn $ "threshold=" ++ show threshold

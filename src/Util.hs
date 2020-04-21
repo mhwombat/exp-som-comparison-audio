@@ -1,7 +1,7 @@
 ------------------------------------------------------------------------
 -- |
 -- Module      :  Util
--- Copyright   :  (c) Amy de Buitléir 2011-2015
+-- Copyright   :  (c) Amy de Buitléir 2011-2016
 -- License     :  BSD-style
 -- Maintainer  :  amy@nualeargais.ie
 -- Stability   :  experimental
@@ -60,11 +60,11 @@ putHtml s = putStr s
 putHtmlLn :: String -> IO ()
 putHtmlLn s = putStrLn $ s ++ "<br/>"
 
-trainingDir :: String
-trainingDir = "/home/eamybut/TI46/HTK_MFCC_endpointed/TRAIN-RAW/"
+-- trainingDir :: String
+-- trainingDir = "/home/eamybut/TI46/HTK_MFCC_endpointed/TRAIN-RAW/"
 
-testDir :: String
-testDir = "/home/eamybut/TI46/HTK_MFCC_endpointed/TEST-RAW/"
+-- testDir :: String
+-- testDir = "/home/eamybut/TI46/HTK_MFCC_endpointed/TEST-RAW/"
 
 type Numeral = Char
 
